@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords='nanopore',
-    packages=find_packages() + ['scripts'],
+    packages=find_packages(),
     python_requires='>=3',
     install_requires=['ont_fast5_api', ],
     package_data={'fast5purge': []},
