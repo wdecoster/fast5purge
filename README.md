@@ -15,7 +15,7 @@ I hope to fix this sooner or later, pull requests are very much welcome
 ```
 usage: fast5purge.py [-h] [-d DIR] [-f FILE] [-r]
 
-Remove all sensible content from a fast5
+Remove sensible content from a fast5 file or directory
 
 optional arguments:
   -h, --help            show this help message and exit
