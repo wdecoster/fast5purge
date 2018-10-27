@@ -7,13 +7,17 @@ the information in data in following locations will be erased:
  - UniqueGlobalKey/tracking_id/ip_address
 
 
-WARNING:  
+## WARNING
 Currently modifies fast5 file IN PLACE. You cannot get your original data data back if you do not have a copy.  
 I hope to fix this sooner or later, pull requests are very much welcome
 
+## INSTALLATION
+`pip install fast5purge`
 
+
+## USAGE
 ```
-usage: fast5purge.py [-h] [-d DIR] [-f FILE] [-r]
+fast5purge [-h] [-d DIR] [-f FILE] [-r]
 
 Remove sensible content from a fast5 file or directory
 
