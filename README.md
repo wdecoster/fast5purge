@@ -1,6 +1,11 @@
 # fast5purge
 Purge a fast5 file or directory of fast5 files from potentially sensitive information:
-all of the information in data in UniqueGlobalKey/context_tags and UniqueGlobalKey/tracking_id will be erased.
+the information in data in following locations will be erased:
+ - UniqueGlobalKey/context_tags/filename
+ - UniqueGlobalKey/context_tags/user_filename_input
+ - UniqueGlobalKey/tracking_id/sample_id
+ - UniqueGlobalKey/tracking_id/ip_address
+
 
 WARNING:  
 Currently modifies fast5 file IN PLACE. You cannot get your original data data back if you do not have a copy.  

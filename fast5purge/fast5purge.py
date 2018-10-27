@@ -15,8 +15,8 @@ def main():
 
 def purge(fn):
     f = Fast5File(fn, "r+")
-    f.set_tracking_id({}, clear=True)
-    f.add_context_tags({}, clear=True)
+    f.set_tracking_id({"sample_id": "", "ip_address": ""})
+    f.add_context_tags({"filename": "", "user_filename_input": ""})
     f.close()
 
 
