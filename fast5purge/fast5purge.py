@@ -9,7 +9,7 @@ def main():
     if args.file:
         purge(args.file)
     else:
-        for filename in glob.iglob(args.dir + '**/*.txt', recursive=args.recursive):
+        for filename in glob.iglob(args.dir + '**/*.fast5', recursive=args.recursive):
             purge(filename)
 
 
