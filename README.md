@@ -19,7 +19,7 @@ I hope to fix this sooner or later, pull requests are very much welcome
 ```
 fast5purge [-h] [-d DIR] [-f FILE] [-r]
 
-Remove sensible content from a fast5 file or directory
+Remove sensitive content from a fast5 file or directory
 
 optional arguments:
   -h, --help            show this help message and exit

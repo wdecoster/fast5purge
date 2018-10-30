@@ -21,7 +21,7 @@ def purge(fn):
 
 
 def get_args():
-    parser = ArgumentParser(description="Remove sensible content from a fast5 file or directory")
+    parser = ArgumentParser(description="Remove sensitive content from a fast5 file or directory")
     parser.add_argument("-d", "--dir", help="directory in which fast5 files have to be purged")
     parser.add_argument("-f", "--file", help="single fast5 file to purge")
     parser.add_argument("-r", "--recursive",
